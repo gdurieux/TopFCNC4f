@@ -33,6 +33,31 @@ V_eect = Vertex(name = 'V_eect',
              lorentz = [ L.VLL, L.VLR, L.VRL, L.VRR, L.SRR, L.SLL, L.TRR, L.TLL ],
              couplings = {(0,0):C.cVLLbar, (0,1):C.cVLRbar, (0,2):C.cVRLbar, (0,3):C.cVRRbar, (0,4):C.cSRRbar, (0,5):C.cSLLbar, (0,6):C.cTRRbar, (0,7):C.cTLLbar })
 
+## 4f
+# mu mu t u
+V_mmtu = Vertex(name = 'V_mmtu',
+             particles = [ P.mu__plus__, P.mu__minus__, P.u__tilde__, P.t ],
+             color = ['Identity(3,4)'],
+             lorentz = [ L.VLL, L.VLR, L.VRL, L.VRR, L.SRR, L.SLL, L.TRR, L.TLL ],
+             couplings = {(0,0):C.uVLLmu, (0,1):C.uVLRmu, (0,2):C.uVRLmu, (0,3):C.uVRRmu, (0,4):C.uSRRmu, (0,5):C.uSLLmu, (0,6):C.uTRRmu, (0,7):C.uTLLmu })
+V_mmut = Vertex(name = 'V_mmut',
+             particles = [ P.mu__plus__, P.mu__minus__, P.t__tilde__, P.u ],
+             color = ['Identity(3,4)'],
+             lorentz = [ L.VLL, L.VLR, L.VRL, L.VRR, L.SRR, L.SLL, L.TRR, L.TLL ],
+             couplings = {(0,0):C.uVLLbarmu, (0,1):C.uVLRbarmu, (0,2):C.uVRLbarmu, (0,3):C.uVRRbarmu, (0,4):C.uSRRbarmu, (0,5):C.uSLLbarmu, (0,6):C.uTRRbarmu, (0,7):C.uTLLbarmu })
+
+# mu mu t c
+V_mmtc = Vertex(name = 'V_mmtc',
+             particles = [ P.mu__plus__, P.mu__minus__, P.c__tilde__, P.t ],
+             color = ['Identity(3,4)'],
+             lorentz = [ L.VLL, L.VLR, L.VRL, L.VRR, L.SRR, L.SLL, L.TRR, L.TLL ],
+             couplings = {(0,0):C.cVLLmu, (0,1):C.cVLRmu, (0,2):C.cVRLmu, (0,3):C.cVRRmu, (0,4):C.cSRRmu, (0,5):C.cSLLmu, (0,6):C.cTRRmu, (0,7):C.cTLLmu })
+V_mmct = Vertex(name = 'V_mmct',
+             particles = [ P.mu__plus__, P.mu__minus__, P.t__tilde__, P.c ],
+             color = ['Identity(3,4)'],
+             lorentz = [ L.VLL, L.VLR, L.VRL, L.VRR, L.SRR, L.SLL, L.TRR, L.TLL ],
+             couplings = {(0,0):C.cVLLbarmu, (0,1):C.cVLRbarmu, (0,2):C.cVRLbarmu, (0,3):C.cVRRbarmu, (0,4):C.cSRRbarmu, (0,5):C.cSLLbarmu, (0,6):C.cTRRbarmu, (0,7):C.cTLLbarmu })
+
 ## NLOCT
 V_1 = Vertex(name = 'V_1',
              particles = [ P.G0, P.G0, P.G0, P.G0 ],

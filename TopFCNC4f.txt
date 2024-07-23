@@ -2562,32 +2562,6 @@ Lambda^-4*MT*cmathpi^-2*vev^2
 - 1/24*h( - ctlTIx1x32 + i_*ctlTx1x32)*h(24*TREE*cmathpi^2*eps - UV*G^2 - 4*UV*G^2*eps + 6*reglog(MT*MUR^-1)*UV*G^2*eps)*Lambda^-2*cmathpi^-2*eps^-1
 )
 
-[t__tilde__, c, e__plus__, e__minus__]
-+ Gamma(m1,i2,ProjM(i1))*Gamma(m1,i4,ProjM(i3))*Identity(i1,i2) * (
-+ 1/24*h(cQlMIx1x32 + i_*cQlMx1x32)*h(24*TREE*cmathpi^2*eps - 4*R2*G^2*eps - 3*UV*G^2 - 4*UV*G^2*eps + 6*reglog(MT*MUR^-1)*UV*G^2*eps)*Lambda^-2*cmathpi^-2*eps^-1
-)
-+ Gamma(m1,i2,ProjM(i1))*Gamma(m1,i4,ProjP(i3))*Identity(i1,i2) * (
-+ 1/24*h(cQeIx1x32 + i_*cQex1x32)*h(24*TREE*cmathpi^2*eps - 4*R2*G^2*eps - 3*UV*G^2 - 4*UV*G^2*eps + 6*reglog(MT*MUR^-1)*UV*G^2*eps)*Lambda^-2*cmathpi^-2*eps^-1
-)
-+ Gamma(m1,i2,ProjP(i1))*Gamma(m1,i4,ProjM(i3))*Identity(i1,i2) * (
-+ 1/24*h(ctlIx1x32 + i_*ctlx1x32)*h(24*TREE*cmathpi^2*eps - 4*R2*G^2*eps - 3*UV*G^2 - 4*UV*G^2*eps + 6*reglog(MT*MUR^-1)*UV*G^2*eps)*Lambda^-2*cmathpi^-2*eps^-1
-)
-+ Gamma(m1,i2,ProjP(i1))*Gamma(m1,i4,ProjP(i3))*Identity(i1,i2) * (
-+ 1/24*h(cteIx1x32 + i_*ctex1x32)*h(24*TREE*cmathpi^2*eps - 4*R2*G^2*eps - 3*UV*G^2 - 4*UV*G^2*eps + 6*reglog(MT*MUR^-1)*UV*G^2*eps)*Lambda^-2*cmathpi^-2*eps^-1
-)
-+ Identity(i1,i2)*ProjM(i2,i1)*ProjM(i4,i3) * (
-- 1/24*h(ctlSIx1x32 + i_*ctlSx1x32)*h(24*TREE*cmathpi^2*eps - 8*R2*G^2*eps - 9*UV*G^2 - 4*UV*G^2*eps + 6*reglog(MT*MUR^-1)*UV*G^2*eps)*Lambda^-2*cmathpi^-2*eps^-1
-)
-+ Identity(i1,i2)*ProjP(i2,i1)*ProjP(i4,i3) * (
-- 1/24*h( - ctlSIx1x23 + i_*ctlSx1x23)*h(24*TREE*cmathpi^2*eps - 8*R2*G^2*eps - 9*UV*G^2 - 4*UV*G^2*eps + 6*reglog(MT*MUR^-1)*UV*G^2*eps)*Lambda^-2*cmathpi^-2*eps^-1
-)
-+ Identity(i1,i2)*Sigma(m1,m2,i2,ProjM(i1))*Sigma(m1,m2,i4,ProjM(i3)) * (
-- 1/24*h(ctlTIx1x32 + i_*ctlTx1x32)*h(24*TREE*cmathpi^2*eps - UV*G^2 - 4*UV*G^2*eps + 6*reglog(MT*MUR^-1)*UV*G^2*eps)*Lambda^-2*cmathpi^-2*eps^-1
-)
-+ Identity(i1,i2)*Sigma(m1,m2,i2,ProjP(i1))*Sigma(m1,m2,i4,ProjP(i3)) * (
-- 1/24*h( - ctlTIx1x23 + i_*ctlTx1x23)*h(24*TREE*cmathpi^2*eps - UV*G^2 - 4*UV*G^2*eps + 6*reglog(MT*MUR^-1)*UV*G^2*eps)*Lambda^-2*cmathpi^-2*eps^-1
-)
-
 [e__plus__, e__minus__, t__tilde__, u]
 + Gamma(m1,i2,ProjM(i1))*Gamma(m1,i4,ProjM(i3))*Identity(i3,i4) * (
 + 1/24*h(cQlMIx1x31 + i_*cQlMx1x31)*h(24*TREE*cmathpi^2*eps - 4*R2*G^2*eps - 3*UV*G^2 - 4*UV*G^2*eps + 6*reglog(MT*MUR^-1)*UV*G^2*eps)*Lambda^-2*cmathpi^-2*eps^-1
@@ -2795,6 +2769,84 @@ Lambda^-4*MT*cmathpi^-2*vev^2
 [mu__plus__, mu__minus__, a]
 + Gamma(i3,i2,i1) * (
 - i_*TREE*ee
+)
+
+[mu__plus__, mu__minus__, c__tilde__, t]
++ Gamma(m1,i2,ProjM(i1))*Gamma(m1,i4,ProjM(i3))*Identity(i3,i4) * (
++ 1/24*h( - cQlMIx2x32 + i_*cQlMx2x32)*h(24*TREE*cmathpi^2*eps - 4*R2*G^2*eps - 3*UV*G^2 - 4*UV*G^2*eps + 6*reglog(MT*MUR^-1)*UV*G^2*eps)*Lambda^-2*cmathpi^-2*eps^-1
+)
++ Gamma(m1,i2,ProjM(i1))*Gamma(m1,i4,ProjP(i3))*Identity(i3,i4) * (
++ 1/24*h( - ctlIx2x32 + i_*ctlx2x32)*h(24*TREE*cmathpi^2*eps - 4*R2*G^2*eps - 3*UV*G^2 - 4*UV*G^2*eps + 6*reglog(MT*MUR^-1)*UV*G^2*eps)*Lambda^-2*cmathpi^-2*eps^-1
+)
++ Gamma(m1,i2,ProjP(i1))*Gamma(m1,i4,ProjM(i3))*Identity(i3,i4) * (
++ 1/24*h( - cQeIx2x32 + i_*cQex2x32)*h(24*TREE*cmathpi^2*eps - 4*R2*G^2*eps - 3*UV*G^2 - 4*UV*G^2*eps + 6*reglog(MT*MUR^-1)*UV*G^2*eps)*Lambda^-2*cmathpi^-2*eps^-1
+)
++ Gamma(m1,i2,ProjP(i1))*Gamma(m1,i4,ProjP(i3))*Identity(i3,i4) * (
++ 1/24*h( - cteIx2x32 + i_*ctex2x32)*h(24*TREE*cmathpi^2*eps - 4*R2*G^2*eps - 3*UV*G^2 - 4*UV*G^2*eps + 6*reglog(MT*MUR^-1)*UV*G^2*eps)*Lambda^-2*cmathpi^-2*eps^-1
+)
++ Identity(i3,i4)*ProjM(i2,i1)*ProjM(i4,i3) * (
+- 1/24*h(ctlSIx2x23 + i_*ctlSx2x23)*h(24*TREE*cmathpi^2*eps - 8*R2*G^2*eps - 9*UV*G^2 - 4*UV*G^2*eps + 6*reglog(MT*MUR^-1)*UV*G^2*eps)*Lambda^-2*cmathpi^-2*eps^-1
+)
++ Identity(i3,i4)*ProjP(i2,i1)*ProjP(i4,i3) * (
+- 1/24*h( - ctlSIx2x32 + i_*ctlSx2x32)*h(24*TREE*cmathpi^2*eps - 8*R2*G^2*eps - 9*UV*G^2 - 4*UV*G^2*eps + 6*reglog(MT*MUR^-1)*UV*G^2*eps)*Lambda^-2*cmathpi^-2*eps^-1
+)
++ Identity(i3,i4)*Sigma(m1,m2,i2,ProjM(i1))*Sigma(m1,m2,i4,ProjM(i3)) * (
+- 1/24*h(ctlTIx2x23 + i_*ctlTx2x23)*h(24*TREE*cmathpi^2*eps - UV*G^2 - 4*UV*G^2*eps + 6*reglog(MT*MUR^-1)*UV*G^2*eps)*Lambda^-2*cmathpi^-2*eps^-1
+)
++ Identity(i3,i4)*Sigma(m1,m2,i2,ProjP(i1))*Sigma(m1,m2,i4,ProjP(i3)) * (
+- 1/24*h( - ctlTIx2x32 + i_*ctlTx2x32)*h(24*TREE*cmathpi^2*eps - UV*G^2 - 4*UV*G^2*eps + 6*reglog(MT*MUR^-1)*UV*G^2*eps)*Lambda^-2*cmathpi^-2*eps^-1
+)
+
+[mu__plus__, mu__minus__, t__tilde__, u]
++ Gamma(m1,i2,ProjM(i1))*Gamma(m1,i4,ProjM(i3))*Identity(i3,i4) * (
++ 1/24*h(cQlMIx2x31 + i_*cQlMx2x31)*h(24*TREE*cmathpi^2*eps - 4*R2*G^2*eps - 3*UV*G^2 - 4*UV*G^2*eps + 6*reglog(MT*MUR^-1)*UV*G^2*eps)*Lambda^-2*cmathpi^-2*eps^-1
+)
++ Gamma(m1,i2,ProjM(i1))*Gamma(m1,i4,ProjP(i3))*Identity(i3,i4) * (
++ 1/24*h(ctlIx2x31 + i_*ctlx2x31)*h(24*TREE*cmathpi^2*eps - 4*R2*G^2*eps - 3*UV*G^2 - 4*UV*G^2*eps + 6*reglog(MT*MUR^-1)*UV*G^2*eps)*Lambda^-2*cmathpi^-2*eps^-1
+)
++ Gamma(m1,i2,ProjP(i1))*Gamma(m1,i4,ProjM(i3))*Identity(i3,i4) * (
++ 1/24*h(cQeIx2x31 + i_*cQex2x31)*h(24*TREE*cmathpi^2*eps - 4*R2*G^2*eps - 3*UV*G^2 - 4*UV*G^2*eps + 6*reglog(MT*MUR^-1)*UV*G^2*eps)*Lambda^-2*cmathpi^-2*eps^-1
+)
++ Gamma(m1,i2,ProjP(i1))*Gamma(m1,i4,ProjP(i3))*Identity(i3,i4) * (
++ 1/24*h(cteIx2x31 + i_*ctex2x31)*h(24*TREE*cmathpi^2*eps - 4*R2*G^2*eps - 3*UV*G^2 - 4*UV*G^2*eps + 6*reglog(MT*MUR^-1)*UV*G^2*eps)*Lambda^-2*cmathpi^-2*eps^-1
+)
++ Identity(i3,i4)*ProjM(i2,i1)*ProjM(i4,i3) * (
+- 1/24*h(ctlSIx2x31 + i_*ctlSx2x31)*h(24*TREE*cmathpi^2*eps - 8*R2*G^2*eps - 9*UV*G^2 - 4*UV*G^2*eps + 6*reglog(MT*MUR^-1)*UV*G^2*eps)*Lambda^-2*cmathpi^-2*eps^-1
+)
++ Identity(i3,i4)*ProjP(i2,i1)*ProjP(i4,i3) * (
+- 1/24*h( - ctlSIx2x13 + i_*ctlSx2x13)*h(24*TREE*cmathpi^2*eps - 8*R2*G^2*eps - 9*UV*G^2 - 4*UV*G^2*eps + 6*reglog(MT*MUR^-1)*UV*G^2*eps)*Lambda^-2*cmathpi^-2*eps^-1
+)
++ Identity(i3,i4)*Sigma(m1,m2,i2,ProjM(i1))*Sigma(m1,m2,i4,ProjM(i3)) * (
+- 1/24*h(ctlTIx2x31 + i_*ctlTx2x31)*h(24*TREE*cmathpi^2*eps - UV*G^2 - 4*UV*G^2*eps + 6*reglog(MT*MUR^-1)*UV*G^2*eps)*Lambda^-2*cmathpi^-2*eps^-1
+)
++ Identity(i3,i4)*Sigma(m1,m2,i2,ProjP(i1))*Sigma(m1,m2,i4,ProjP(i3)) * (
+- 1/24*h( - ctlTIx2x13 + i_*ctlTx2x13)*h(24*TREE*cmathpi^2*eps - UV*G^2 - 4*UV*G^2*eps + 6*reglog(MT*MUR^-1)*UV*G^2*eps)*Lambda^-2*cmathpi^-2*eps^-1
+)
+
+[mu__plus__, mu__minus__, u__tilde__, t]
++ Gamma(m1,i2,ProjM(i1))*Gamma(m1,i4,ProjM(i3))*Identity(i3,i4) * (
++ 1/24*h( - cQlMIx2x31 + i_*cQlMx2x31)*h(24*TREE*cmathpi^2*eps - 4*R2*G^2*eps - 3*UV*G^2 - 4*UV*G^2*eps + 6*reglog(MT*MUR^-1)*UV*G^2*eps)*Lambda^-2*cmathpi^-2*eps^-1
+)
++ Gamma(m1,i2,ProjM(i1))*Gamma(m1,i4,ProjP(i3))*Identity(i3,i4) * (
++ 1/24*h( - ctlIx2x31 + i_*ctlx2x31)*h(24*TREE*cmathpi^2*eps - 4*R2*G^2*eps - 3*UV*G^2 - 4*UV*G^2*eps + 6*reglog(MT*MUR^-1)*UV*G^2*eps)*Lambda^-2*cmathpi^-2*eps^-1
+)
++ Gamma(m1,i2,ProjP(i1))*Gamma(m1,i4,ProjM(i3))*Identity(i3,i4) * (
++ 1/24*h( - cQeIx2x31 + i_*cQex2x31)*h(24*TREE*cmathpi^2*eps - 4*R2*G^2*eps - 3*UV*G^2 - 4*UV*G^2*eps + 6*reglog(MT*MUR^-1)*UV*G^2*eps)*Lambda^-2*cmathpi^-2*eps^-1
+)
++ Gamma(m1,i2,ProjP(i1))*Gamma(m1,i4,ProjP(i3))*Identity(i3,i4) * (
++ 1/24*h( - cteIx2x31 + i_*ctex2x31)*h(24*TREE*cmathpi^2*eps - 4*R2*G^2*eps - 3*UV*G^2 - 4*UV*G^2*eps + 6*reglog(MT*MUR^-1)*UV*G^2*eps)*Lambda^-2*cmathpi^-2*eps^-1
+)
++ Identity(i3,i4)*ProjM(i2,i1)*ProjM(i4,i3) * (
+- 1/24*h(ctlSIx2x13 + i_*ctlSx2x13)*h(24*TREE*cmathpi^2*eps - 8*R2*G^2*eps - 9*UV*G^2 - 4*UV*G^2*eps + 6*reglog(MT*MUR^-1)*UV*G^2*eps)*Lambda^-2*cmathpi^-2*eps^-1
+)
++ Identity(i3,i4)*ProjP(i2,i1)*ProjP(i4,i3) * (
+- 1/24*h( - ctlSIx2x31 + i_*ctlSx2x31)*h(24*TREE*cmathpi^2*eps - 8*R2*G^2*eps - 9*UV*G^2 - 4*UV*G^2*eps + 6*reglog(MT*MUR^-1)*UV*G^2*eps)*Lambda^-2*cmathpi^-2*eps^-1
+)
++ Identity(i3,i4)*Sigma(m1,m2,i2,ProjM(i1))*Sigma(m1,m2,i4,ProjM(i3)) * (
+- 1/24*h(ctlTIx2x13 + i_*ctlTx2x13)*h(24*TREE*cmathpi^2*eps - UV*G^2 - 4*UV*G^2*eps + 6*reglog(MT*MUR^-1)*UV*G^2*eps)*Lambda^-2*cmathpi^-2*eps^-1
+)
++ Identity(i3,i4)*Sigma(m1,m2,i2,ProjP(i1))*Sigma(m1,m2,i4,ProjP(i3)) * (
+- 1/24*h( - ctlTIx2x31 + i_*ctlTx2x31)*h(24*TREE*cmathpi^2*eps - UV*G^2 - 4*UV*G^2*eps + 6*reglog(MT*MUR^-1)*UV*G^2*eps)*Lambda^-2*cmathpi^-2*eps^-1
 )
 
 [mu__plus__, vm, W__minus__]
@@ -3921,6 +3973,32 @@ G^2*ctAx23 - 54*pow(1/2,2)*i_*TREE*cmathpi^2*ctAIx23*eps + 7*pow(1/2,2)*i_*R2*G*
 - 1/24*h( - ctAIx23 + i_*ctAx23)*h(8*cmathsqrt(2)*R2*eps + 8*cmathsqrt(2)*UV + pow(1/2,2)*UV + 4*pow(1/2,2)*UV*eps - 6*pow(1/2,2)*reglog(MT*MUR^-1)*UV*eps)*G^2*Lambda^-2*cmathpi^-2*eps^-1*vev
 )
 
+[t__tilde__, c, e__plus__, e__minus__]
++ Gamma(m1,i2,ProjM(i1))*Gamma(m1,i4,ProjM(i3))*Identity(i1,i2) * (
++ 1/24*h(cQlMIx1x32 + i_*cQlMx1x32)*h(24*TREE*cmathpi^2*eps - 4*R2*G^2*eps - 3*UV*G^2 - 4*UV*G^2*eps + 6*reglog(MT*MUR^-1)*UV*G^2*eps)*Lambda^-2*cmathpi^-2*eps^-1
+)
++ Gamma(m1,i2,ProjM(i1))*Gamma(m1,i4,ProjP(i3))*Identity(i1,i2) * (
++ 1/24*h(cQeIx1x32 + i_*cQex1x32)*h(24*TREE*cmathpi^2*eps - 4*R2*G^2*eps - 3*UV*G^2 - 4*UV*G^2*eps + 6*reglog(MT*MUR^-1)*UV*G^2*eps)*Lambda^-2*cmathpi^-2*eps^-1
+)
++ Gamma(m1,i2,ProjP(i1))*Gamma(m1,i4,ProjM(i3))*Identity(i1,i2) * (
++ 1/24*h(ctlIx1x32 + i_*ctlx1x32)*h(24*TREE*cmathpi^2*eps - 4*R2*G^2*eps - 3*UV*G^2 - 4*UV*G^2*eps + 6*reglog(MT*MUR^-1)*UV*G^2*eps)*Lambda^-2*cmathpi^-2*eps^-1
+)
++ Gamma(m1,i2,ProjP(i1))*Gamma(m1,i4,ProjP(i3))*Identity(i1,i2) * (
++ 1/24*h(cteIx1x32 + i_*ctex1x32)*h(24*TREE*cmathpi^2*eps - 4*R2*G^2*eps - 3*UV*G^2 - 4*UV*G^2*eps + 6*reglog(MT*MUR^-1)*UV*G^2*eps)*Lambda^-2*cmathpi^-2*eps^-1
+)
++ Identity(i1,i2)*ProjM(i2,i1)*ProjM(i4,i3) * (
+- 1/24*h(ctlSIx1x32 + i_*ctlSx1x32)*h(24*TREE*cmathpi^2*eps - 8*R2*G^2*eps - 9*UV*G^2 - 4*UV*G^2*eps + 6*reglog(MT*MUR^-1)*UV*G^2*eps)*Lambda^-2*cmathpi^-2*eps^-1
+)
++ Identity(i1,i2)*ProjP(i2,i1)*ProjP(i4,i3) * (
+- 1/24*h( - ctlSIx1x23 + i_*ctlSx1x23)*h(24*TREE*cmathpi^2*eps - 8*R2*G^2*eps - 9*UV*G^2 - 4*UV*G^2*eps + 6*reglog(MT*MUR^-1)*UV*G^2*eps)*Lambda^-2*cmathpi^-2*eps^-1
+)
++ Identity(i1,i2)*Sigma(m1,m2,i2,ProjM(i1))*Sigma(m1,m2,i4,ProjM(i3)) * (
+- 1/24*h(ctlTIx1x32 + i_*ctlTx1x32)*h(24*TREE*cmathpi^2*eps - UV*G^2 - 4*UV*G^2*eps + 6*reglog(MT*MUR^-1)*UV*G^2*eps)*Lambda^-2*cmathpi^-2*eps^-1
+)
++ Identity(i1,i2)*Sigma(m1,m2,i2,ProjP(i1))*Sigma(m1,m2,i4,ProjP(i3)) * (
+- 1/24*h( - ctlTIx1x23 + i_*ctlTx1x23)*h(24*TREE*cmathpi^2*eps - UV*G^2 - 4*UV*G^2*eps + 6*reglog(MT*MUR^-1)*UV*G^2*eps)*Lambda^-2*cmathpi^-2*eps^-1
+)
+
 [t__tilde__, c, g, H]
 + Gamma(i3,i2,ProjM(i1))*T(3,2,1) * (
 + 1/384*pow(1/2,2)*h( - ctGIx23 + i_*ctGx23)*h(53*R2*eps + 42*UV)*G^2*Lambda^-2*MT*cmathpi^-2*eps^-1
@@ -4229,6 +4307,32 @@ reglog(MT^2*MUR^-2)*i_*UV*ctGx32*eps)*G^2*Lambda^-2*MT*cmathpi^-2*eps^-1*vev
 )
 + P(3,2)*ProjP(i2,i1)*T(3,2,1) * (
 + 1/192*pow(1/2,2)*h( - ctGIx23 + i_*ctGx23)*h( - 43*R2*eps - 80*UV - 32*UV*eps + 48*reglog(MT*MUR^-1)*UV*eps)*G^2*Lambda^-2*cmathpi^-2*eps^-1*vev
+)
+
+[t__tilde__, c, mu__plus__, mu__minus__]
++ Gamma(m1,i2,ProjM(i1))*Gamma(m1,i4,ProjM(i3))*Identity(i1,i2) * (
++ 1/24*h(cQlMIx2x32 + i_*cQlMx2x32)*h(24*TREE*cmathpi^2*eps - 4*R2*G^2*eps - 3*UV*G^2 - 4*UV*G^2*eps + 6*reglog(MT*MUR^-1)*UV*G^2*eps)*Lambda^-2*cmathpi^-2*eps^-1
+)
++ Gamma(m1,i2,ProjM(i1))*Gamma(m1,i4,ProjP(i3))*Identity(i1,i2) * (
++ 1/24*h(cQeIx2x32 + i_*cQex2x32)*h(24*TREE*cmathpi^2*eps - 4*R2*G^2*eps - 3*UV*G^2 - 4*UV*G^2*eps + 6*reglog(MT*MUR^-1)*UV*G^2*eps)*Lambda^-2*cmathpi^-2*eps^-1
+)
++ Gamma(m1,i2,ProjP(i1))*Gamma(m1,i4,ProjM(i3))*Identity(i1,i2) * (
++ 1/24*h(ctlIx2x32 + i_*ctlx2x32)*h(24*TREE*cmathpi^2*eps - 4*R2*G^2*eps - 3*UV*G^2 - 4*UV*G^2*eps + 6*reglog(MT*MUR^-1)*UV*G^2*eps)*Lambda^-2*cmathpi^-2*eps^-1
+)
++ Gamma(m1,i2,ProjP(i1))*Gamma(m1,i4,ProjP(i3))*Identity(i1,i2) * (
++ 1/24*h(cteIx2x32 + i_*ctex2x32)*h(24*TREE*cmathpi^2*eps - 4*R2*G^2*eps - 3*UV*G^2 - 4*UV*G^2*eps + 6*reglog(MT*MUR^-1)*UV*G^2*eps)*Lambda^-2*cmathpi^-2*eps^-1
+)
++ Identity(i1,i2)*ProjM(i2,i1)*ProjM(i4,i3) * (
+- 1/24*h(ctlSIx2x32 + i_*ctlSx2x32)*h(24*TREE*cmathpi^2*eps - 8*R2*G^2*eps - 9*UV*G^2 - 4*UV*G^2*eps + 6*reglog(MT*MUR^-1)*UV*G^2*eps)*Lambda^-2*cmathpi^-2*eps^-1
+)
++ Identity(i1,i2)*ProjP(i2,i1)*ProjP(i4,i3) * (
+- 1/24*h( - ctlSIx2x23 + i_*ctlSx2x23)*h(24*TREE*cmathpi^2*eps - 8*R2*G^2*eps - 9*UV*G^2 - 4*UV*G^2*eps + 6*reglog(MT*MUR^-1)*UV*G^2*eps)*Lambda^-2*cmathpi^-2*eps^-1
+)
++ Identity(i1,i2)*Sigma(m1,m2,i2,ProjM(i1))*Sigma(m1,m2,i4,ProjM(i3)) * (
+- 1/24*h(ctlTIx2x32 + i_*ctlTx2x32)*h(24*TREE*cmathpi^2*eps - UV*G^2 - 4*UV*G^2*eps + 6*reglog(MT*MUR^-1)*UV*G^2*eps)*Lambda^-2*cmathpi^-2*eps^-1
+)
++ Identity(i1,i2)*Sigma(m1,m2,i2,ProjP(i1))*Sigma(m1,m2,i4,ProjP(i3)) * (
+- 1/24*h( - ctlTIx2x23 + i_*ctlTx2x23)*h(24*TREE*cmathpi^2*eps - UV*G^2 - 4*UV*G^2*eps + 6*reglog(MT*MUR^-1)*UV*G^2*eps)*Lambda^-2*cmathpi^-2*eps^-1
 )
 
 [t__tilde__, d, W__plus__, H, H]

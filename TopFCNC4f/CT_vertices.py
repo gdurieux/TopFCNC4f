@@ -150,6 +150,146 @@ V_eect_UV = CTVertex(
 		(0,6,0):C.cTRRbar_UV,
 		(0,7,0):C.cTLLbar_UV })
 
+## mu mu t u
+## R2
+V_mmtu_R2 = CTVertex(name = 'V_mmtu_R2',
+	type = 'R2',
+	particles = [ P.mu__plus__, P.mu__minus__, P.u__tilde__, P.t ],
+	color = ['Identity(3,4)'],
+	lorentz = [ L.VLL, L.VLR, L.VRL, L.VRR, L.SRR, L.SLL, L.TRR, L.TLL ],
+	loop_particles = [ [ [] ] ],
+	couplings = {
+		(0,0,0):C.uVLL_R2_mu,
+		(0,1,0):C.uVLR_R2_mu,
+		(0,2,0):C.uVRL_R2_mu,
+		(0,3,0):C.uVRR_R2_mu,
+		(0,4,0):C.uSRR_R2_mu,
+		(0,5,0):C.uSLL_R2_mu,
+		(0,6,0):C.uTRR_R2_mu,
+		(0,7,0):C.uTLL_R2_mu }
+	)
+V_mmut_R2 = CTVertex(
+	name = 'V_mmut_R2',
+	type = 'R2',
+	particles = [ P.mu__plus__, P.mu__minus__, P.t__tilde__, P.u ],
+	color = ['Identity(3,4)'],
+	lorentz = [ L.VLL, L.VLR, L.VRL, L.VRR, L.SRR, L.SLL, L.TRR, L.TLL ],
+	loop_particles = [ [ [] ] ],
+	couplings = {
+		(0,0,0):C.uVLLbar_R2_mu,
+		(0,1,0):C.uVLRbar_R2_mu,
+		(0,2,0):C.uVRLbar_R2_mu,
+		(0,3,0):C.uVRRbar_R2_mu,
+		(0,4,0):C.uSRRbar_R2_mu,
+		(0,5,0):C.uSLLbar_R2_mu,
+		(0,6,0):C.uTRRbar_R2_mu,
+		(0,7,0):C.uTLLbar_R2_mu }
+	)
+
+## UV
+V_mmtu_UV = CTVertex(
+	name = 'V_mmtu_UV',
+	type = 'UV',
+	particles = [ P.mu__plus__, P.mu__minus__, P.u__tilde__, P.t ],
+	color = ['Identity(3,4)'],
+	lorentz = [ L.VLL, L.VLR, L.VRL, L.VRR, L.SRR, L.SLL, L.TRR, L.TLL ],
+	loop_particles = [ [ [] ] ],
+	couplings = {
+		(0,0,0):C.uVLL_UV_mu,
+		(0,1,0):C.uVLR_UV_mu,
+		(0,2,0):C.uVRL_UV_mu,
+		(0,3,0):C.uVRR_UV_mu,
+		(0,4,0):C.uSRR_UV_mu,
+		(0,5,0):C.uSLL_UV_mu,
+		(0,6,0):C.uTRR_UV_mu,
+		(0,7,0):C.uTLL_UV_mu }
+	)
+V_mmut_UV = CTVertex(
+	name = 'V_mmut_UV',
+	type = 'UV',
+	particles = [ P.mu__plus__, P.mu__minus__, P.t__tilde__, P.u ],
+	color = ['Identity(3,4)'],
+	lorentz = [ L.VLL, L.VLR, L.VRL, L.VRR, L.SRR, L.SLL, L.TRR, L.TLL ],
+	loop_particles = [ [ [] ] ],
+	couplings = {
+		(0,0,0):C.uVLLbar_UV_mu,
+		(0,1,0):C.uVLRbar_UV_mu,
+		(0,2,0):C.uVRLbar_UV_mu,
+		(0,3,0):C.uVRRbar_UV_mu,
+		(0,4,0):C.uSRRbar_UV_mu,
+		(0,5,0):C.uSLLbar_UV_mu,
+		(0,6,0):C.uTRRbar_UV_mu,
+		(0,7,0):C.uTLLbar_UV_mu })
+## mu mu t c
+## R2
+V_mmtc_R2 = CTVertex(name = 'V_mmtu_R2',
+	type = 'R2',
+	particles = [ P.mu__plus__, P.mu__minus__, P.c__tilde__, P.t ],
+	color = ['Identity(3,4)'],
+	lorentz = [ L.VLL, L.VLR, L.VRL, L.VRR, L.SRR, L.SLL, L.TRR, L.TLL ],
+	loop_particles = [ [ [] ] ],
+	couplings = {
+		(0,0,0):C.cVLL_R2_mu,
+		(0,1,0):C.cVLR_R2_mu,
+		(0,2,0):C.cVRL_R2_mu,
+		(0,3,0):C.cVRR_R2_mu,
+		(0,4,0):C.cSRR_R2_mu,
+		(0,5,0):C.cSLL_R2_mu,
+		(0,6,0):C.cTRR_R2_mu,
+		(0,7,0):C.cTLL_R2_mu }
+	)
+V_mmct_R2 = CTVertex(
+	name = 'V_mmut_R2',
+	type = 'R2',
+	particles = [ P.mu__plus__, P.mu__minus__, P.t__tilde__, P.c ],
+	color = ['Identity(3,4)'],
+	lorentz = [ L.VLL, L.VLR, L.VRL, L.VRR, L.SRR, L.SLL, L.TRR, L.TLL ],
+	loop_particles = [ [ [] ] ],
+	couplings = {
+		(0,0,0):C.cVLLbar_R2_mu,
+		(0,1,0):C.cVLRbar_R2_mu,
+		(0,2,0):C.cVRLbar_R2_mu,
+		(0,3,0):C.cVRRbar_R2_mu,
+		(0,4,0):C.cSRRbar_R2_mu,
+		(0,5,0):C.cSLLbar_R2_mu,
+		(0,6,0):C.cTRRbar_R2_mu,
+		(0,7,0):C.cTLLbar_R2_mu }
+	)
+
+## UV
+V_mmtc_UV = CTVertex(
+	name = 'V_mmtu_UV',
+	type = 'UV',
+	particles = [ P.mu__plus__, P.mu__minus__, P.c__tilde__, P.t ],
+	color = ['Identity(3,4)'],
+	lorentz = [ L.VLL, L.VLR, L.VRL, L.VRR, L.SRR, L.SLL, L.TRR, L.TLL ],
+	loop_particles = [ [ [] ] ],
+	couplings = {
+		(0,0,0):C.cVLL_UV_mu,
+		(0,1,0):C.cVLR_UV_mu,
+		(0,2,0):C.cVRL_UV_mu,
+		(0,3,0):C.cVRR_UV_mu,
+		(0,4,0):C.cSRR_UV_mu,
+		(0,5,0):C.cSLL_UV_mu,
+		(0,6,0):C.cTRR_UV_mu,
+		(0,7,0):C.cTLL_UV_mu }
+	)
+V_mmct_UV = CTVertex(
+	name = 'V_mmut_UV',
+	type = 'UV',
+	particles = [ P.mu__plus__, P.mu__minus__, P.t__tilde__, P.c ],
+	color = ['Identity(3,4)'],
+	lorentz = [ L.VLL, L.VLR, L.VRL, L.VRR, L.SRR, L.SLL, L.TRR, L.TLL ],
+	loop_particles = [ [ [] ] ],
+	couplings = {
+		(0,0,0):C.cVLLbar_UV_mu,
+		(0,1,0):C.cVLRbar_UV_mu,
+		(0,2,0):C.cVRLbar_UV_mu,
+		(0,3,0):C.cVRRbar_UV_mu,
+		(0,4,0):C.cSRRbar_UV_mu,
+		(0,5,0):C.cSLLbar_UV_mu,
+		(0,6,0):C.cTRRbar_UV_mu,
+		(0,7,0):C.cTLLbar_UV_mu })
 ## NLOCT
 
 V_1 = CTVertex(name = 'V_1',

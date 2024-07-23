@@ -947,32 +947,6 @@
 - h( - ctlTIx1x32 + i_*ctlTx1x32)*TREE*Lambda^-2
 )
 
-[t__tilde__, c, e__plus__, e__minus__]
-+ Gamma(m1,i2,ProjM(i1))*Gamma(m1,i4,ProjM(i3))*Identity(i1,i2) * (
-+ h(cQlMIx1x32 + i_*cQlMx1x32)*TREE*Lambda^-2
-)
-+ Gamma(m1,i2,ProjM(i1))*Gamma(m1,i4,ProjP(i3))*Identity(i1,i2) * (
-+ h(cQeIx1x32 + i_*cQex1x32)*TREE*Lambda^-2
-)
-+ Gamma(m1,i2,ProjP(i1))*Gamma(m1,i4,ProjM(i3))*Identity(i1,i2) * (
-+ h(ctlIx1x32 + i_*ctlx1x32)*TREE*Lambda^-2
-)
-+ Gamma(m1,i2,ProjP(i1))*Gamma(m1,i4,ProjP(i3))*Identity(i1,i2) * (
-+ h(cteIx1x32 + i_*ctex1x32)*TREE*Lambda^-2
-)
-+ Identity(i1,i2)*ProjM(i2,i1)*ProjM(i4,i3) * (
-- h(ctlSIx1x32 + i_*ctlSx1x32)*TREE*Lambda^-2
-)
-+ Identity(i1,i2)*ProjP(i2,i1)*ProjP(i4,i3) * (
-- h( - ctlSIx1x23 + i_*ctlSx1x23)*TREE*Lambda^-2
-)
-+ Identity(i1,i2)*Sigma(m1,m2,i2,ProjM(i1))*Sigma(m1,m2,i4,ProjM(i3)) * (
-- h(ctlTIx1x32 + i_*ctlTx1x32)*TREE*Lambda^-2
-)
-+ Identity(i1,i2)*Sigma(m1,m2,i2,ProjP(i1))*Sigma(m1,m2,i4,ProjP(i3)) * (
-- h( - ctlTIx1x23 + i_*ctlTx1x23)*TREE*Lambda^-2
-)
-
 [e__plus__, e__minus__, t__tilde__, u]
 + Gamma(m1,i2,ProjM(i1))*Gamma(m1,i4,ProjM(i3))*Identity(i3,i4) * (
 + h(cQlMIx1x31 + i_*cQlMx1x31)*TREE*Lambda^-2
@@ -1180,6 +1154,84 @@
 [mu__plus__, mu__minus__, a]
 + Gamma(i3,i2,i1) * (
 - i_*TREE*ee
+)
+
+[mu__plus__, mu__minus__, c__tilde__, t]
++ Gamma(m1,i2,ProjM(i1))*Gamma(m1,i4,ProjM(i3))*Identity(i3,i4) * (
++ h( - cQlMIx2x32 + i_*cQlMx2x32)*TREE*Lambda^-2
+)
++ Gamma(m1,i2,ProjM(i1))*Gamma(m1,i4,ProjP(i3))*Identity(i3,i4) * (
++ h( - ctlIx2x32 + i_*ctlx2x32)*TREE*Lambda^-2
+)
++ Gamma(m1,i2,ProjP(i1))*Gamma(m1,i4,ProjM(i3))*Identity(i3,i4) * (
++ h( - cQeIx2x32 + i_*cQex2x32)*TREE*Lambda^-2
+)
++ Gamma(m1,i2,ProjP(i1))*Gamma(m1,i4,ProjP(i3))*Identity(i3,i4) * (
++ h( - cteIx2x32 + i_*ctex2x32)*TREE*Lambda^-2
+)
++ Identity(i3,i4)*ProjM(i2,i1)*ProjM(i4,i3) * (
+- h(ctlSIx2x23 + i_*ctlSx2x23)*TREE*Lambda^-2
+)
++ Identity(i3,i4)*ProjP(i2,i1)*ProjP(i4,i3) * (
+- h( - ctlSIx2x32 + i_*ctlSx2x32)*TREE*Lambda^-2
+)
++ Identity(i3,i4)*Sigma(m1,m2,i2,ProjM(i1))*Sigma(m1,m2,i4,ProjM(i3)) * (
+- h(ctlTIx2x23 + i_*ctlTx2x23)*TREE*Lambda^-2
+)
++ Identity(i3,i4)*Sigma(m1,m2,i2,ProjP(i1))*Sigma(m1,m2,i4,ProjP(i3)) * (
+- h( - ctlTIx2x32 + i_*ctlTx2x32)*TREE*Lambda^-2
+)
+
+[mu__plus__, mu__minus__, t__tilde__, u]
++ Gamma(m1,i2,ProjM(i1))*Gamma(m1,i4,ProjM(i3))*Identity(i3,i4) * (
++ h(cQlMIx2x31 + i_*cQlMx2x31)*TREE*Lambda^-2
+)
++ Gamma(m1,i2,ProjM(i1))*Gamma(m1,i4,ProjP(i3))*Identity(i3,i4) * (
++ h(ctlIx2x31 + i_*ctlx2x31)*TREE*Lambda^-2
+)
++ Gamma(m1,i2,ProjP(i1))*Gamma(m1,i4,ProjM(i3))*Identity(i3,i4) * (
++ h(cQeIx2x31 + i_*cQex2x31)*TREE*Lambda^-2
+)
++ Gamma(m1,i2,ProjP(i1))*Gamma(m1,i4,ProjP(i3))*Identity(i3,i4) * (
++ h(cteIx2x31 + i_*ctex2x31)*TREE*Lambda^-2
+)
++ Identity(i3,i4)*ProjM(i2,i1)*ProjM(i4,i3) * (
+- h(ctlSIx2x31 + i_*ctlSx2x31)*TREE*Lambda^-2
+)
++ Identity(i3,i4)*ProjP(i2,i1)*ProjP(i4,i3) * (
+- h( - ctlSIx2x13 + i_*ctlSx2x13)*TREE*Lambda^-2
+)
++ Identity(i3,i4)*Sigma(m1,m2,i2,ProjM(i1))*Sigma(m1,m2,i4,ProjM(i3)) * (
+- h(ctlTIx2x31 + i_*ctlTx2x31)*TREE*Lambda^-2
+)
++ Identity(i3,i4)*Sigma(m1,m2,i2,ProjP(i1))*Sigma(m1,m2,i4,ProjP(i3)) * (
+- h( - ctlTIx2x13 + i_*ctlTx2x13)*TREE*Lambda^-2
+)
+
+[mu__plus__, mu__minus__, u__tilde__, t]
++ Gamma(m1,i2,ProjM(i1))*Gamma(m1,i4,ProjM(i3))*Identity(i3,i4) * (
++ h( - cQlMIx2x31 + i_*cQlMx2x31)*TREE*Lambda^-2
+)
++ Gamma(m1,i2,ProjM(i1))*Gamma(m1,i4,ProjP(i3))*Identity(i3,i4) * (
++ h( - ctlIx2x31 + i_*ctlx2x31)*TREE*Lambda^-2
+)
++ Gamma(m1,i2,ProjP(i1))*Gamma(m1,i4,ProjM(i3))*Identity(i3,i4) * (
++ h( - cQeIx2x31 + i_*cQex2x31)*TREE*Lambda^-2
+)
++ Gamma(m1,i2,ProjP(i1))*Gamma(m1,i4,ProjP(i3))*Identity(i3,i4) * (
++ h( - cteIx2x31 + i_*ctex2x31)*TREE*Lambda^-2
+)
++ Identity(i3,i4)*ProjM(i2,i1)*ProjM(i4,i3) * (
+- h(ctlSIx2x13 + i_*ctlSx2x13)*TREE*Lambda^-2
+)
++ Identity(i3,i4)*ProjP(i2,i1)*ProjP(i4,i3) * (
+- h( - ctlSIx2x31 + i_*ctlSx2x31)*TREE*Lambda^-2
+)
++ Identity(i3,i4)*Sigma(m1,m2,i2,ProjM(i1))*Sigma(m1,m2,i4,ProjM(i3)) * (
+- h(ctlTIx2x13 + i_*ctlTx2x13)*TREE*Lambda^-2
+)
++ Identity(i3,i4)*Sigma(m1,m2,i2,ProjP(i1))*Sigma(m1,m2,i4,ProjP(i3)) * (
+- h( - ctlTIx2x31 + i_*ctlTx2x31)*TREE*Lambda^-2
 )
 
 [mu__plus__, vm, W__minus__]
@@ -1525,6 +1577,32 @@
 - 1/2*pow(1/2,2)*h(ctAx23 + i_*ctAIx23)*TREE*Lambda^-2*vev
 )
 
+[t__tilde__, c, e__plus__, e__minus__]
++ Gamma(m1,i2,ProjM(i1))*Gamma(m1,i4,ProjM(i3))*Identity(i1,i2) * (
++ h(cQlMIx1x32 + i_*cQlMx1x32)*TREE*Lambda^-2
+)
++ Gamma(m1,i2,ProjM(i1))*Gamma(m1,i4,ProjP(i3))*Identity(i1,i2) * (
++ h(cQeIx1x32 + i_*cQex1x32)*TREE*Lambda^-2
+)
++ Gamma(m1,i2,ProjP(i1))*Gamma(m1,i4,ProjM(i3))*Identity(i1,i2) * (
++ h(ctlIx1x32 + i_*ctlx1x32)*TREE*Lambda^-2
+)
++ Gamma(m1,i2,ProjP(i1))*Gamma(m1,i4,ProjP(i3))*Identity(i1,i2) * (
++ h(cteIx1x32 + i_*ctex1x32)*TREE*Lambda^-2
+)
++ Identity(i1,i2)*ProjM(i2,i1)*ProjM(i4,i3) * (
+- h(ctlSIx1x32 + i_*ctlSx1x32)*TREE*Lambda^-2
+)
++ Identity(i1,i2)*ProjP(i2,i1)*ProjP(i4,i3) * (
+- h( - ctlSIx1x23 + i_*ctlSx1x23)*TREE*Lambda^-2
+)
++ Identity(i1,i2)*Sigma(m1,m2,i2,ProjM(i1))*Sigma(m1,m2,i4,ProjM(i3)) * (
+- h(ctlTIx1x32 + i_*ctlTx1x32)*TREE*Lambda^-2
+)
++ Identity(i1,i2)*Sigma(m1,m2,i2,ProjP(i1))*Sigma(m1,m2,i4,ProjP(i3)) * (
+- h( - ctlTIx1x23 + i_*ctlTx1x23)*TREE*Lambda^-2
+)
+
 [t__tilde__, c, g, H]
 + Metric(i3,m1)*P(-1,3)*ProjM(i2,i1)*T(3,2,1) * (
 + 1/2*pow(1/2,2)*h(ctGIx32 + i_*ctGx32)*TREE*Lambda^-2
@@ -1627,6 +1705,32 @@
 )
 + P(-1,3)*T(3,2,1)*Sigma(m1,i3,i2,ProjP(i1)) * (
 - 1/2*pow(1/2,2)*h(ctGx23 + i_*ctGIx23)*TREE*Lambda^-2*vev
+)
+
+[t__tilde__, c, mu__plus__, mu__minus__]
++ Gamma(m1,i2,ProjM(i1))*Gamma(m1,i4,ProjM(i3))*Identity(i1,i2) * (
++ h(cQlMIx2x32 + i_*cQlMx2x32)*TREE*Lambda^-2
+)
++ Gamma(m1,i2,ProjM(i1))*Gamma(m1,i4,ProjP(i3))*Identity(i1,i2) * (
++ h(cQeIx2x32 + i_*cQex2x32)*TREE*Lambda^-2
+)
++ Gamma(m1,i2,ProjP(i1))*Gamma(m1,i4,ProjM(i3))*Identity(i1,i2) * (
++ h(ctlIx2x32 + i_*ctlx2x32)*TREE*Lambda^-2
+)
++ Gamma(m1,i2,ProjP(i1))*Gamma(m1,i4,ProjP(i3))*Identity(i1,i2) * (
++ h(cteIx2x32 + i_*ctex2x32)*TREE*Lambda^-2
+)
++ Identity(i1,i2)*ProjM(i2,i1)*ProjM(i4,i3) * (
+- h(ctlSIx2x32 + i_*ctlSx2x32)*TREE*Lambda^-2
+)
++ Identity(i1,i2)*ProjP(i2,i1)*ProjP(i4,i3) * (
+- h( - ctlSIx2x23 + i_*ctlSx2x23)*TREE*Lambda^-2
+)
++ Identity(i1,i2)*Sigma(m1,m2,i2,ProjM(i1))*Sigma(m1,m2,i4,ProjM(i3)) * (
+- h(ctlTIx2x32 + i_*ctlTx2x32)*TREE*Lambda^-2
+)
++ Identity(i1,i2)*Sigma(m1,m2,i2,ProjP(i1))*Sigma(m1,m2,i4,ProjP(i3)) * (
+- h( - ctlTIx2x23 + i_*ctlTx2x23)*TREE*Lambda^-2
 )
 
 [t__tilde__, d, W__plus__, H, H]

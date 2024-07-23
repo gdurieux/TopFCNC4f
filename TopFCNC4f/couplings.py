@@ -12,6 +12,7 @@ cc='complexconjugate'
 #cc=''
 myorder = {'NP':2}
 
+### eetq
 # 4f vector up
 uVLL    = Coupling(name = 'uVLL',    value = 'complex(0,1)* ClqM31 /Lambda**2', order = myorder)
 uVLR    = Coupling(name = 'uVLR',    value = 'complex(0,1)* Clu31  /Lambda**2', order = myorder)
@@ -52,6 +53,48 @@ cTRR    = Coupling(name = 'cTRR',    value = 'complex(0,1)*'+   '(-ClequT32) /La
 cTLL    = Coupling(name = 'cTLL',    value = 'complex(0,1)*'+cc+'(-ClequT23) /Lambda**2', order = myorder)
 cTRRbar = Coupling(name = 'cTRRbar', value = 'complex(0,1)*'+   '(-ClequT23) /Lambda**2', order = myorder)
 cTLLbar = Coupling(name = 'cTLLbar', value = 'complex(0,1)*'+cc+'(-ClequT32) /Lambda**2', order = myorder)
+
+### mumutq
+# 4f vector up
+uVLLmu    = Coupling(name = 'uVLLmu',    value = 'complex(0,1)* ClqM31mu /Lambda**2', order = myorder)
+uVLRmu    = Coupling(name = 'uVLRmu',    value = 'complex(0,1)* Clu31mu  /Lambda**2', order = myorder)
+uVRLmu    = Coupling(name = 'uVRLmu',    value = 'complex(0,1)* Ceq31mu  /Lambda**2', order = myorder)
+uVRRmu    = Coupling(name = 'uVRRmu',    value = 'complex(0,1)* Ceu31mu  /Lambda**2', order = myorder)
+uVLLbarmu = Coupling(name = 'uVLLbarmu', value = 'complex(0,1)* ClqM13mu /Lambda**2', order = myorder)
+uVLRbarmu = Coupling(name = 'uVLRbarmu', value = 'complex(0,1)* Clu13mu  /Lambda**2', order = myorder)
+uVRLbarmu = Coupling(name = 'uVRLbarmu', value = 'complex(0,1)* Ceq13mu  /Lambda**2', order = myorder)
+uVRRbarmu = Coupling(name = 'uVRRbarmu', value = 'complex(0,1)* Ceu13mu  /Lambda**2', order = myorder)
+# Note that for those last Hermitian operators, one should have 13 = 31*.
+# 4f vector charm
+cVLLmu    = Coupling(name = 'cVLLmu',    value = 'complex(0,1)* ClqM32mu /Lambda**2', order = myorder)
+cVLRmu    = Coupling(name = 'cVLRmu',    value = 'complex(0,1)* Clu32mu  /Lambda**2', order = myorder)
+cVRLmu    = Coupling(name = 'cVRLmu',    value = 'complex(0,1)* Ceq32mu  /Lambda**2', order = myorder)
+cVRRmu    = Coupling(name = 'cVRRmu',    value = 'complex(0,1)* Ceu32mu  /Lambda**2', order = myorder)
+cVLLbarmu = Coupling(name = 'cVLLbarmu', value = 'complex(0,1)* ClqM23mu /Lambda**2', order = myorder)
+cVLRbarmu = Coupling(name = 'cVLRbarmu', value = 'complex(0,1)* Clu23mu  /Lambda**2', order = myorder)
+cVRLbarmu = Coupling(name = 'cVRLbarmu', value = 'complex(0,1)* Ceq23mu  /Lambda**2', order = myorder)
+cVRRbarmu = Coupling(name = 'cVRRbarmu', value = 'complex(0,1)* Ceu23mu  /Lambda**2', order = myorder)
+# Note that for those last Hermitian operators, one should have 23 = 32*.
+# 4f scalar up
+uSRRmu    = Coupling(name = 'uSRRmu',    value = 'complex(0,1)*'+   '(-ClequS31mu) /Lambda**2', order = myorder)
+uSLLmu    = Coupling(name = 'uSLLmu',    value = 'complex(0,1)*'+cc+'(-ClequS13mu) /Lambda**2', order = myorder)
+uSRRbarmu = Coupling(name = 'uSRRbarmu', value = 'complex(0,1)*'+   '(-ClequS13mu) /Lambda**2', order = myorder)
+uSLLbarmu = Coupling(name = 'uSLLbarmu', value = 'complex(0,1)*'+cc+'(-ClequS31mu) /Lambda**2', order = myorder)
+# 4f scalar charm
+cSRRmu    = Coupling(name = 'cSRRmu',    value = 'complex(0,1)*'+   '(-ClequS32mu) /Lambda**2', order = myorder)
+cSLLmu    = Coupling(name = 'cSLLmu',    value = 'complex(0,1)*'+cc+'(-ClequS23mu) /Lambda**2', order = myorder)
+cSRRbarmu = Coupling(name = 'cSRRbarmu', value = 'complex(0,1)*'+   '(-ClequS23mu) /Lambda**2', order = myorder)
+cSLLbarmu = Coupling(name = 'cSLLbarmu', value = 'complex(0,1)*'+cc+'(-ClequS32mu) /Lambda**2', order = myorder)
+# 4f tensor up
+uTRRmu    = Coupling(name = 'uTRRmu',    value = 'complex(0,1)*'+   '(-ClequT31mu) /Lambda**2', order = myorder)
+uTLLmu    = Coupling(name = 'uTLLmu',    value = 'complex(0,1)*'+cc+'(-ClequT13mu) /Lambda**2', order = myorder)
+uTRRbarmu = Coupling(name = 'uTRRbarmu', value = 'complex(0,1)*'+   '(-ClequT13mu) /Lambda**2', order = myorder)
+uTLLbarmu = Coupling(name = 'uTLLbarmu', value = 'complex(0,1)*'+cc+'(-ClequT31mu) /Lambda**2', order = myorder)
+# 4f tensor charm
+cTRRmu    = Coupling(name = 'cTRRmu',    value = 'complex(0,1)*'+   '(-ClequT32mu) /Lambda**2', order = myorder)
+cTLLmu    = Coupling(name = 'cTLLmu',    value = 'complex(0,1)*'+cc+'(-ClequT23mu) /Lambda**2', order = myorder)
+cTRRbarmu = Coupling(name = 'cTRRbarmu', value = 'complex(0,1)*'+   '(-ClequT23mu) /Lambda**2', order = myorder)
+cTLLbarmu = Coupling(name = 'cTLLbarmu', value = 'complex(0,1)*'+cc+'(-ClequT32mu) /Lambda**2', order = myorder)
 
 ## NLOCT
 GC_1 = Coupling(name = 'GC_1',
