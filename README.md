@@ -4,7 +4,7 @@ UFO model for top-quark FCNC simulation at NLO in QCD ([.zip](https://download-d
 
 
 It is derived from [TopFCNC](https://feynrules.irmp.ucl.ac.be/wiki/TopFCNC) by Céline Degrande with two modifications:
-- four-fermion operators of `tcee/tcµµ` and `tuee/tuµµ` types have been added by hand, with the counterterms needed for NLO QCD simulation,
+- four-fermion operators of `tuee/tuµµ/tuττ` and `tcee/tcµµ/tcττ` types have been added by hand, with the counterterms needed for NLO QCD simulation,
 - the conventions for operator coefficients have been converted to that of [1802.07237](https://arxiv.org/abs/1802.07237).
 
 

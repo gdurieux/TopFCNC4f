@@ -58,6 +58,34 @@ V_mmct = Vertex(name = 'V_mmct',
              lorentz = [ L.VLL, L.VLR, L.VRL, L.VRR, L.SRR, L.SLL, L.TRR, L.TLL ],
              couplings = {(0,0):C.cVLLbarmu, (0,1):C.cVLRbarmu, (0,2):C.cVRLbarmu, (0,3):C.cVRRbarmu, (0,4):C.cSRRbarmu, (0,5):C.cSLLbarmu, (0,6):C.cTRRbarmu, (0,7):C.cTLLbarmu })
 
+
+
+## 4f
+# ta ta t u
+V_tatatu = Vertex(name = 'V_tatatu',
+             particles = [ P.ta__plus__, P.ta__minus__, P.u__tilde__, P.t ],
+             color = ['Identity(3,4)'],
+             lorentz = [ L.VLL, L.VLR, L.VRL, L.VRR, L.SRR, L.SLL, L.TRR, L.TLL ],
+             couplings = {(0,0):C.uVLLta, (0,1):C.uVLRta, (0,2):C.uVRLta, (0,3):C.uVRRta, (0,4):C.uSRRta, (0,5):C.uSLLta, (0,6):C.uTRRta, (0,7):C.uTLLta })
+V_tataut = Vertex(name = 'V_tataut',
+             particles = [ P.ta__plus__, P.ta__minus__, P.t__tilde__, P.u ],
+             color = ['Identity(3,4)'],
+             lorentz = [ L.VLL, L.VLR, L.VRL, L.VRR, L.SRR, L.SLL, L.TRR, L.TLL ],
+             couplings = {(0,0):C.uVLLbarta, (0,1):C.uVLRbarta, (0,2):C.uVRLbarta, (0,3):C.uVRRbarta, (0,4):C.uSRRbarta, (0,5):C.uSLLbarta, (0,6):C.uTRRbarta, (0,7):C.uTLLbarta })
+
+# ta ta t c
+V_tatatc = Vertex(name = 'V_tatatc',
+             particles = [ P.ta__plus__, P.ta__minus__, P.c__tilde__, P.t ],
+             color = ['Identity(3,4)'],
+             lorentz = [ L.VLL, L.VLR, L.VRL, L.VRR, L.SRR, L.SLL, L.TRR, L.TLL ],
+             couplings = {(0,0):C.cVLLta, (0,1):C.cVLRta, (0,2):C.cVRLta, (0,3):C.cVRRta, (0,4):C.cSRRta, (0,5):C.cSLLta, (0,6):C.cTRRta, (0,7):C.cTLLta })
+V_tatact = Vertex(name = 'V_tatact',
+             particles = [ P.ta__plus__, P.ta__minus__, P.t__tilde__, P.c ],
+             color = ['Identity(3,4)'],
+             lorentz = [ L.VLL, L.VLR, L.VRL, L.VRR, L.SRR, L.SLL, L.TRR, L.TLL ],
+             couplings = {(0,0):C.cVLLbarta, (0,1):C.cVLRbarta, (0,2):C.cVRLbarta, (0,3):C.cVRRbarta, (0,4):C.cSRRbarta, (0,5):C.cSLLbarta, (0,6):C.cTRRbarta, (0,7):C.cTLLbarta })
+
+
 ## NLOCT
 V_1 = Vertex(name = 'V_1',
              particles = [ P.G0, P.G0, P.G0, P.G0 ],

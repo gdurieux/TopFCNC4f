@@ -96,6 +96,53 @@ cTLLmu    = Coupling(name = 'cTLLmu',    value = 'complex(0,1)*'+cc+'(-ClequT23m
 cTRRbarmu = Coupling(name = 'cTRRbarmu', value = 'complex(0,1)*'+   '(-ClequT23mu) /Lambda**2', order = myorder)
 cTLLbarmu = Coupling(name = 'cTLLbarmu', value = 'complex(0,1)*'+cc+'(-ClequT32mu) /Lambda**2', order = myorder)
 
+
+
+
+### tatatq
+# 4f vector up
+uVLLta    = Coupling(name = 'uVLLta',    value = 'complex(0,1)* ClqM31ta /Lambda**2', order = myorder)
+uVLRta    = Coupling(name = 'uVLRta',    value = 'complex(0,1)* Clu31ta  /Lambda**2', order = myorder)
+uVRLta    = Coupling(name = 'uVRLta',    value = 'complex(0,1)* Ceq31ta  /Lambda**2', order = myorder)
+uVRRta    = Coupling(name = 'uVRRta',    value = 'complex(0,1)* Ceu31ta  /Lambda**2', order = myorder)
+uVLLbarta = Coupling(name = 'uVLLbarta', value = 'complex(0,1)* ClqM13ta /Lambda**2', order = myorder)
+uVLRbarta = Coupling(name = 'uVLRbarta', value = 'complex(0,1)* Clu13ta  /Lambda**2', order = myorder)
+uVRLbarta = Coupling(name = 'uVRLbarta', value = 'complex(0,1)* Ceq13ta  /Lambda**2', order = myorder)
+uVRRbarta = Coupling(name = 'uVRRbarta', value = 'complex(0,1)* Ceu13ta  /Lambda**2', order = myorder)
+# Note that for those last Hermitian operators, one should have 13 = 31*.
+# 4f vector charm
+cVLLta    = Coupling(name = 'cVLLta',    value = 'complex(0,1)* ClqM32ta /Lambda**2', order = myorder)
+cVLRta    = Coupling(name = 'cVLRta',    value = 'complex(0,1)* Clu32ta  /Lambda**2', order = myorder)
+cVRLta    = Coupling(name = 'cVRLta',    value = 'complex(0,1)* Ceq32ta  /Lambda**2', order = myorder)
+cVRRta    = Coupling(name = 'cVRRta',    value = 'complex(0,1)* Ceu32ta  /Lambda**2', order = myorder)
+cVLLbarta = Coupling(name = 'cVLLbarta', value = 'complex(0,1)* ClqM23ta /Lambda**2', order = myorder)
+cVLRbarta = Coupling(name = 'cVLRbarta', value = 'complex(0,1)* Clu23ta  /Lambda**2', order = myorder)
+cVRLbarta = Coupling(name = 'cVRLbarta', value = 'complex(0,1)* Ceq23ta  /Lambda**2', order = myorder)
+cVRRbarta = Coupling(name = 'cVRRbarta', value = 'complex(0,1)* Ceu23ta  /Lambda**2', order = myorder)
+# Note that for those last Hermitian operators, one should have 23 = 32*.
+# 4f scalar up
+uSRRta    = Coupling(name = 'uSRRta',    value = 'complex(0,1)*'+   '(-ClequS31ta) /Lambda**2', order = myorder)
+uSLLta    = Coupling(name = 'uSLLta',    value = 'complex(0,1)*'+cc+'(-ClequS13ta) /Lambda**2', order = myorder)
+uSRRbarta = Coupling(name = 'uSRRbarta', value = 'complex(0,1)*'+   '(-ClequS13ta) /Lambda**2', order = myorder)
+uSLLbarta = Coupling(name = 'uSLLbarta', value = 'complex(0,1)*'+cc+'(-ClequS31ta) /Lambda**2', order = myorder)
+# 4f scalar charm
+cSRRta    = Coupling(name = 'cSRRta',    value = 'complex(0,1)*'+   '(-ClequS32ta) /Lambda**2', order = myorder)
+cSLLta    = Coupling(name = 'cSLLta',    value = 'complex(0,1)*'+cc+'(-ClequS23ta) /Lambda**2', order = myorder)
+cSRRbarta = Coupling(name = 'cSRRbarta', value = 'complex(0,1)*'+   '(-ClequS23ta) /Lambda**2', order = myorder)
+cSLLbarta = Coupling(name = 'cSLLbarta', value = 'complex(0,1)*'+cc+'(-ClequS32ta) /Lambda**2', order = myorder)
+# 4f tensor up
+uTRRta    = Coupling(name = 'uTRRta',    value = 'complex(0,1)*'+   '(-ClequT31ta) /Lambda**2', order = myorder)
+uTLLta    = Coupling(name = 'uTLLta',    value = 'complex(0,1)*'+cc+'(-ClequT13ta) /Lambda**2', order = myorder)
+uTRRbarta = Coupling(name = 'uTRRbarta', value = 'complex(0,1)*'+   '(-ClequT13ta) /Lambda**2', order = myorder)
+uTLLbarta = Coupling(name = 'uTLLbarta', value = 'complex(0,1)*'+cc+'(-ClequT31ta) /Lambda**2', order = myorder)
+# 4f tensor charm
+cTRRta    = Coupling(name = 'cTRRta',    value = 'complex(0,1)*'+   '(-ClequT32ta) /Lambda**2', order = myorder)
+cTLLta    = Coupling(name = 'cTLLta',    value = 'complex(0,1)*'+cc+'(-ClequT23ta) /Lambda**2', order = myorder)
+cTRRbarta = Coupling(name = 'cTRRbarta', value = 'complex(0,1)*'+   '(-ClequT23ta) /Lambda**2', order = myorder)
+cTLLbarta = Coupling(name = 'cTLLbarta', value = 'complex(0,1)*'+cc+'(-ClequT32ta) /Lambda**2', order = myorder)
+
+
+
 ## NLOCT
 GC_1 = Coupling(name = 'GC_1',
                 value = '-(ee*complex(0,1))/3.',

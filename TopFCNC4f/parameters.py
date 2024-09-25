@@ -98,6 +98,17 @@ cQlMIx2x32 = Parameter(name = "cQlMIx2x32",	nature = "external",	type = "real",	
 cQlMx2x31 = Parameter(name = "cQlMx2x31",	nature = "external",	type = "real",	value = 0.,	texname = "cQlMx2x31",	lhablock = "DIM6",	lhacode = [ ii ]); ii+=1
 cQlMx2x32 = Parameter(name = "cQlMx2x32",	nature = "external",	type = "real",	value = 0.,	texname = "cQlMx2x32",	lhablock = "DIM6",	lhacode = [ ii ]); ii+=1
 
+
+cQeIx3x31 = Parameter(name = "cQeIx3x31",	nature = "external",	type = "real",	value = 0.,	texname = "cQeIx3x31",	lhablock = "DIM6",	lhacode = [ ii ]); ii+=1
+cQeIx3x32 = Parameter(name = "cQeIx3x32",	nature = "external",	type = "real",	value = 0.,	texname = "cQeIx3x32",	lhablock = "DIM6",	lhacode = [ ii ]); ii+=1
+cQex3x31 = Parameter(name = "cQex3x31",	nature = "external",	type = "real",	value = 0.,	texname = "cQex3x31",	lhablock = "DIM6",	lhacode = [ ii ]); ii+=1
+cQex3x32 = Parameter(name = "cQex3x32",	nature = "external",	type = "real",	value = 0.,	texname = "cQex3x32",	lhablock = "DIM6",	lhacode = [ ii ]); ii+=1
+cQlMIx3x31 = Parameter(name = "cQlMIx3x31",	nature = "external",	type = "real",	value = 0.,	texname = "cQlMIx3x31",	lhablock = "DIM6",	lhacode = [ ii ]); ii+=1
+cQlMIx3x32 = Parameter(name = "cQlMIx3x32",	nature = "external",	type = "real",	value = 0.,	texname = "cQlMIx3x32",	lhablock = "DIM6",	lhacode = [ ii ]); ii+=1
+cQlMx3x31 = Parameter(name = "cQlMx3x31",	nature = "external",	type = "real",	value = 0.,	texname = "cQlMx3x31",	lhablock = "DIM6",	lhacode = [ ii ]); ii+=1
+cQlMx3x32 = Parameter(name = "cQlMx3x32",	nature = "external",	type = "real",	value = 0.,	texname = "cQlMx3x32",	lhablock = "DIM6",	lhacode = [ ii ]); ii+=1
+
+
 ## te
 ctex1x31 = Parameter(name = "ctex1x31",	nature = "external",	type = "real",	value = 0.,	texname = "ctex1x31",	lhablock = "DIM6",	lhacode = [ ii ]); ii+=1
 ctex1x32 = Parameter(name = "ctex1x32",	nature = "external",	type = "real",	value = 0.,	texname = "ctex1x32",	lhablock = "DIM6",	lhacode = [ ii ]); ii+=1
@@ -108,6 +119,12 @@ ctex2x31 = Parameter(name = "ctex2x31",	nature = "external",	type = "real",	valu
 ctex2x32 = Parameter(name = "ctex2x32",	nature = "external",	type = "real",	value = 0.,	texname = "ctex2x32",	lhablock = "DIM6",	lhacode = [ ii ]); ii+=1
 cteIx2x31 = Parameter(name = "cteIx2x31",	nature = "external",	type = "real",	value = 0.,	texname = "cteIx2x31",	lhablock = "DIM6",	lhacode = [ ii ]); ii+=1
 cteIx2x32 = Parameter(name = "cteIx2x32",	nature = "external",	type = "real",	value = 0.,	texname = "cteIx2x32",	lhablock = "DIM6",	lhacode = [ ii ]); ii+=1
+
+
+ctex3x31 = Parameter(name = "ctex3x31",	nature = "external",	type = "real",	value = 0.,	texname = "ctex3x31",	lhablock = "DIM6",	lhacode = [ ii ]); ii+=1
+ctex3x32 = Parameter(name = "ctex3x32",	nature = "external",	type = "real",	value = 0.,	texname = "ctex3x32",	lhablock = "DIM6",	lhacode = [ ii ]); ii+=1
+cteIx3x31 = Parameter(name = "cteIx3x31",	nature = "external",	type = "real",	value = 0.,	texname = "cteIx3x31",	lhablock = "DIM6",	lhacode = [ ii ]); ii+=1
+cteIx3x32 = Parameter(name = "cteIx3x32",	nature = "external",	type = "real",	value = 0.,	texname = "cteIx3x32",	lhablock = "DIM6",	lhacode = [ ii ]); ii+=1
 
 # tl
 ctlx1x31 = Parameter(name = "ctlx1x31",	nature = "external",	type = "real",	value = 0.,	texname = "ctlx1x31",	lhablock = "DIM6",	lhacode = [ ii ]); ii+=1
@@ -120,6 +137,10 @@ ctlx2x32 = Parameter(name = "ctlx2x32",	nature = "external",	type = "real",	valu
 ctlIx2x31 = Parameter(name = "ctlIx2x31",	nature = "external",	type = "real",	value = 0.,	texname = "ctlIx2x31",	lhablock = "DIM6",	lhacode = [ ii ]); ii+=1
 ctlIx2x32 = Parameter(name = "ctlIx2x32",	nature = "external",	type = "real",	value = 0.,	texname = "ctlIx2x32",	lhablock = "DIM6",	lhacode = [ ii ]); ii+=1
 
+ctlx3x31 = Parameter(name = "ctlx3x31",	nature = "external",	type = "real",	value = 0.,	texname = "ctlx3x31",	lhablock = "DIM6",	lhacode = [ ii ]); ii+=1
+ctlx3x32 = Parameter(name = "ctlx3x32",	nature = "external",	type = "real",	value = 0.,	texname = "ctlx3x32",	lhablock = "DIM6",	lhacode = [ ii ]); ii+=1
+ctlIx3x31 = Parameter(name = "ctlIx3x31",	nature = "external",	type = "real",	value = 0.,	texname = "ctlIx3x31",	lhablock = "DIM6",	lhacode = [ ii ]); ii+=1
+ctlIx3x32 = Parameter(name = "ctlIx3x32",	nature = "external",	type = "real",	value = 0.,	texname = "ctlIx3x32",	lhablock = "DIM6",	lhacode = [ ii ]); ii+=1
 
 # tlS
 ctlSx1x13 = Parameter(name = "ctlSx1x13",	nature = "external",	type = "real",	value = 0.,	texname = "ctlSx1x13",	lhablock = "DIM6",	lhacode = [ ii ]); ii+=1
@@ -141,6 +162,16 @@ ctlSIx2x31 = Parameter(name = "ctlSIx2x31",	nature = "external",	type = "real",	
 ctlSIx2x32 = Parameter(name = "ctlSIx2x32",	nature = "external",	type = "real",	value = 0.,	texname = "ctlSIx2x32",	lhablock = "DIM6",	lhacode = [ ii ]); ii+=1
 
 
+ctlSx3x13 = Parameter(name = "ctlSx3x13",	nature = "external",	type = "real",	value = 0.,	texname = "ctlSx3x13",	lhablock = "DIM6",	lhacode = [ ii ]); ii+=1
+ctlSx3x23 = Parameter(name = "ctlSx3x23",	nature = "external",	type = "real",	value = 0.,	texname = "ctlSx3x23",	lhablock = "DIM6",	lhacode = [ ii ]); ii+=1
+ctlSx3x31 = Parameter(name = "ctlSx3x31",	nature = "external",	type = "real",	value = 0.,	texname = "ctlSx3x31",	lhablock = "DIM6",	lhacode = [ ii ]); ii+=1
+ctlSx3x32 = Parameter(name = "ctlSx3x32",	nature = "external",	type = "real",	value = 0.,	texname = "ctlSx3x32",	lhablock = "DIM6",	lhacode = [ ii ]); ii+=1
+ctlSIx3x13 = Parameter(name = "ctlSIx3x13",	nature = "external",	type = "real",	value = 0.,	texname = "ctlSIx3x13",	lhablock = "DIM6",	lhacode = [ ii ]); ii+=1
+ctlSIx3x23 = Parameter(name = "ctlSIx3x23",	nature = "external",	type = "real",	value = 0.,	texname = "ctlSIx3x23",	lhablock = "DIM6",	lhacode = [ ii ]); ii+=1
+ctlSIx3x31 = Parameter(name = "ctlSIx3x31",	nature = "external",	type = "real",	value = 0.,	texname = "ctlSIx3x31",	lhablock = "DIM6",	lhacode = [ ii ]); ii+=1
+ctlSIx3x32 = Parameter(name = "ctlSIx3x32",	nature = "external",	type = "real",	value = 0.,	texname = "ctlSIx3x32",	lhablock = "DIM6",	lhacode = [ ii ]); ii+=1
+
+
 # tlT
 ctlTx1x13 = Parameter(name = "ctlTx1x13",	nature = "external",	type = "real",	value = 0.,	texname = "ctlTx1x13",	lhablock = "DIM6",	lhacode = [ ii ]); ii+=1
 ctlTx1x23 = Parameter(name = "ctlTx1x23",	nature = "external",	type = "real",	value = 0.,	texname = "ctlTx1x23",	lhablock = "DIM6",	lhacode = [ ii ]); ii+=1
@@ -159,6 +190,15 @@ ctlTIx2x13 = Parameter(name = "ctlTIx2x13",	nature = "external",	type = "real",	
 ctlTIx2x23 = Parameter(name = "ctlTIx2x23",	nature = "external",	type = "real",	value = 0.,	texname = "ctlTIx2x23",	lhablock = "DIM6",	lhacode = [ ii ]); ii+=1
 ctlTIx2x31 = Parameter(name = "ctlTIx2x31",	nature = "external",	type = "real",	value = 0.,	texname = "ctlTIx2x31",	lhablock = "DIM6",	lhacode = [ ii ]); ii+=1
 ctlTIx2x32 = Parameter(name = "ctlTIx2x32",	nature = "external",	type = "real",	value = 0.,	texname = "ctlTIx2x32",	lhablock = "DIM6",	lhacode = [ ii ]); ii+=1
+
+ctlTx3x13 = Parameter(name = "ctlTx3x13",	nature = "external",	type = "real",	value = 0.,	texname = "ctlTx3x13",	lhablock = "DIM6",	lhacode = [ ii ]); ii+=1
+ctlTx3x23 = Parameter(name = "ctlTx3x23",	nature = "external",	type = "real",	value = 0.,	texname = "ctlTx3x23",	lhablock = "DIM6",	lhacode = [ ii ]); ii+=1
+ctlTx3x31 = Parameter(name = "ctlTx3x31",	nature = "external",	type = "real",	value = 0.,	texname = "ctlTx3x31",	lhablock = "DIM6",	lhacode = [ ii ]); ii+=1
+ctlTx3x32 = Parameter(name = "ctlTx3x32",	nature = "external",	type = "real",	value = 0.,	texname = "ctlTx3x32",	lhablock = "DIM6",	lhacode = [ ii ]); ii+=1
+ctlTIx3x13 = Parameter(name = "ctlTIx3x13",	nature = "external",	type = "real",	value = 0.,	texname = "ctlTIx3x13",	lhablock = "DIM6",	lhacode = [ ii ]); ii+=1
+ctlTIx3x23 = Parameter(name = "ctlTIx3x23",	nature = "external",	type = "real",	value = 0.,	texname = "ctlTIx3x23",	lhablock = "DIM6",	lhacode = [ ii ]); ii+=1
+ctlTIx3x31 = Parameter(name = "ctlTIx3x31",	nature = "external",	type = "real",	value = 0.,	texname = "ctlTIx3x31",	lhablock = "DIM6",	lhacode = [ ii ]); ii+=1
+ctlTIx3x32 = Parameter(name = "ctlTIx3x32",	nature = "external",	type = "real",	value = 0.,	texname = "ctlTIx3x32",	lhablock = "DIM6",	lhacode = [ ii ]); ii+=1
 
 
 
@@ -438,6 +478,78 @@ ClequT13mu = Parameter(name = 'ClequT13mu',	nature = 'internal',	type = 'complex
 # 4f tensor charm
 ClequT32mu = Parameter(name = 'ClequT32mu',	nature = 'internal',	type = 'complex',	value = 'RClequT32mu+complex(0,1)*IClequT32mu',	texname = "")
 ClequT23mu = Parameter(name = 'ClequT23mu',	nature = 'internal',	type = 'complex',	value = 'RClequT23mu+complex(0,1)*IClequT23mu',	texname = "")
+
+
+
+
+### tatatu
+
+RCeq13ta = Parameter(name = "RCeq13ta",	nature = "internal",	type = "real",	value = "cQex3x31",	texname = "RCeq13ta")
+RCeq23ta = Parameter(name = "RCeq23ta",	nature = "internal",	type = "real",	value = "cQex3x32",	texname = "RCeq23ta")
+RCeu13ta = Parameter(name = "RCeu13ta",	nature = "internal",	type = "real",	value = "ctex3x31",	texname = "RCeu13ta")
+RCeu23ta = Parameter(name = "RCeu23ta",	nature = "internal",	type = "real",	value = "ctex3x32",	texname = "RCeu23ta")
+RClequS13ta = Parameter(name = "RClequS13ta",	nature = "internal",	type = "real",	value = "ctlSx3x13",	texname = "RClequS13ta")
+RClequS23ta = Parameter(name = "RClequS23ta",	nature = "internal",	type = "real",	value = "ctlSx3x23",	texname = "RClequS23ta")
+RClequS31ta = Parameter(name = "RClequS31ta",	nature = "internal",	type = "real",	value = "ctlSx3x31",	texname = "RClequS31ta")
+RClequS32ta = Parameter(name = "RClequS32ta",	nature = "internal",	type = "real",	value = "ctlSx3x32",	texname = "RClequS32ta")
+RClequT13ta = Parameter(name = "RClequT13ta",	nature = "internal",	type = "real",	value = "ctlTx3x13",	texname = "RClequT13ta")
+RClequT23ta = Parameter(name = "RClequT23ta",	nature = "internal",	type = "real",	value = "ctlTx3x23",	texname = "RClequT23ta")
+RClequT31ta = Parameter(name = "RClequT31ta",	nature = "internal",	type = "real",	value = "ctlTx3x31",	texname = "RClequT31ta")
+RClequT32ta = Parameter(name = "RClequT32ta",	nature = "internal",	type = "real",	value = "ctlTx3x32",	texname = "RClequT32ta")
+RClqM13ta = Parameter(name = "RClqM13ta",	nature = "internal",	type = "real",	value = "cQlMx3x31",	texname = "RClqM13ta")
+RClqM23ta = Parameter(name = "RClqM23ta",	nature = "internal",	type = "real",	value = "cQlMx3x32",	texname = "RClqM23ta")
+RClu13ta = Parameter(name = "RClu13ta",	nature = "internal",	type = "real",	value = "ctlx3x31",	texname = "RClu13ta")
+RClu23ta = Parameter(name = "RClu23ta",	nature = "internal",	type = "real",	value = "ctlx3x32",	texname = "RClu23ta")
+
+
+ICeq13ta = Parameter(name = "ICeq13ta",	nature = "internal",	type = "real",	value = "(-1)*cQeIx3x31",	texname = "ICeq13ta")
+ICeq23ta = Parameter(name = "ICeq23ta",	nature = "internal",	type = "real",	value = "(-1)*cQeIx3x32",	texname = "ICeq23ta")
+ICeu13ta = Parameter(name = "ICeu13ta",	nature = "internal",	type = "real",	value = "(-1)*cteIx3x31",	texname = "ICeu13ta")
+ICeu23ta = Parameter(name = "ICeu23ta",	nature = "internal",	type = "real",	value = "(-1)*cteIx3x32",	texname = "ICeu23ta")
+IClequS13ta = Parameter(name = "IClequS13ta",	nature = "internal",	type = "real",	value = "ctlSIx3x13",	texname = "IClequS13ta")
+IClequS23ta = Parameter(name = "IClequS23ta",	nature = "internal",	type = "real",	value = "ctlSIx3x23",	texname = "IClequS23ta")
+IClequS31ta = Parameter(name = "IClequS31ta",	nature = "internal",	type = "real",	value = "ctlSIx3x31",	texname = "IClequS31ta")
+IClequS32ta = Parameter(name = "IClequS32ta",	nature = "internal",	type = "real",	value = "ctlSIx3x32",	texname = "IClequS32ta")
+IClequT13ta = Parameter(name = "IClequT13ta",	nature = "internal",	type = "real",	value = "ctlTIx3x13",	texname = "IClequT13ta")
+IClequT23ta = Parameter(name = "IClequT23ta",	nature = "internal",	type = "real",	value = "ctlTIx3x23",	texname = "IClequT23ta")
+IClequT31ta = Parameter(name = "IClequT31ta",	nature = "internal",	type = "real",	value = "ctlTIx3x31",	texname = "IClequT31ta")
+IClequT32ta = Parameter(name = "IClequT32ta",	nature = "internal",	type = "real",	value = "ctlTIx3x32",	texname = "IClequT32ta")
+IClqM13ta = Parameter(name = "IClqM13ta",	nature = "internal",	type = "real",	value = "(-1)*cQlMIx3x31",	texname = "IClqM13ta")
+IClqM23ta = Parameter(name = "IClqM23ta",	nature = "internal",	type = "real",	value = "(-1)*cQlMIx3x32",	texname = "IClqM23ta")
+IClu13ta = Parameter(name = "IClu13ta",	nature = "internal",	type = "real",	value = "(-1)*ctlIx3x31",	texname = "IClu13ta")
+IClu23ta = Parameter(name = "IClu23ta",	nature = "internal",	type = "real",	value = "(-1)*ctlIx3x32",	texname = "IClu23ta")
+
+ClqM13ta = Parameter(name = 'ClqM13ta',	nature = 'internal',	type = 'complex',	value = 'RClqM13ta+complex(0,1)*IClqM13ta',	texname = "")
+Clu13ta  = Parameter(name = 'Clu13ta',	nature = 'internal',	type = 'complex',	value = 'RClu13ta+complex(0,1)*IClu13ta',	texname = "")
+Ceq13ta  = Parameter(name = 'Ceq13ta',	nature = 'internal',	type = 'complex',	value = 'RCeq13ta+complex(0,1)*ICeq13ta',	texname = "")
+Ceu13ta  = Parameter(name = 'Ceu13ta',	nature = 'internal',	type = 'complex',	value = 'RCeu13ta+complex(0,1)*ICeu13ta',	texname = "")
+ClqM31ta = Parameter(name = 'ClqM31ta',	nature = 'internal',	type = 'complex',	value = cc+'(ClqM13ta)',	texname = "")
+Clu31ta  = Parameter(name = 'Clu31ta',	nature = 'internal',	type = 'complex',	value = cc+'(Clu13ta)',	texname = "")
+Ceq31ta  = Parameter(name = 'Ceq31ta',	nature = 'internal',	type = 'complex',	value = cc+'(Ceq13ta)',	texname = "")
+Ceu31ta  = Parameter(name = 'Ceu31ta',	nature = 'internal',	type = 'complex',	value = cc+'(Ceu13ta)',	texname = "")
+
+# 4f vector charm
+ClqM23ta = Parameter(name = 'ClqM23ta',	nature = 'internal',	type = 'complex',	value = 'RClqM23ta+complex(0,1)*IClqM23ta',	texname = "")
+Clu23ta  = Parameter(name = 'Clu23ta',	nature = 'internal',	type = 'complex',	value = 'RClu23ta+complex(0,1)*IClu23ta',	texname = "")
+Ceq23ta  = Parameter(name = 'Ceq23ta',	nature = 'internal',	type = 'complex',	value = 'RCeq23ta+complex(0,1)*ICeq23ta',	texname = "")
+Ceu23ta  = Parameter(name = 'Ceu23ta',	nature = 'internal',	type = 'complex',	value = 'RCeu23ta+complex(0,1)*ICeu23ta',	texname = "")
+ClqM32ta = Parameter(name = 'ClqM32ta',	nature = 'internal',	type = 'complex',	value = cc+'(ClqM23ta)',	texname = "")
+Clu32ta  = Parameter(name = 'Clu32ta',	nature = 'internal',	type = 'complex',	value = cc+'(Clu23ta)',	texname = "")
+Ceq32ta  = Parameter(name = 'Ceq32ta',	nature = 'internal',	type = 'complex',	value = cc+'(Ceq23ta)',	texname = "")
+Ceu32ta  = Parameter(name = 'Ceu32ta',	nature = 'internal',	type = 'complex',	value = cc+'(Ceu23ta)',	texname = "")
+# 4f scalar up
+ClequS31ta = Parameter(name = 'ClequS31ta',	nature = 'internal',	type = 'complex',	value = 'RClequS31ta+complex(0,1)*IClequS31ta',	texname = "")
+ClequS13ta = Parameter(name = 'ClequS13ta',	nature = 'internal',	type = 'complex',	value = 'RClequS13ta+complex(0,1)*IClequS13ta',	texname = "")
+# 4f scalar charm
+ClequS32ta = Parameter(name = 'ClequS32ta',	nature = 'internal',	type = 'complex',	value = 'RClequS32ta+complex(0,1)*IClequS32ta',	texname = "")
+ClequS23ta = Parameter(name = 'ClequS23ta',	nature = 'internal',	type = 'complex',	value = 'RClequS23ta+complex(0,1)*IClequS23ta',	texname = "")
+# 4f tensor up
+ClequT31ta = Parameter(name = 'ClequT31ta',	nature = 'internal',	type = 'complex',	value = 'RClequT31ta+complex(0,1)*IClequT31ta',	texname = "")
+ClequT13ta = Parameter(name = 'ClequT13ta',	nature = 'internal',	type = 'complex',	value = 'RClequT13ta+complex(0,1)*IClequT13ta',	texname = "")
+# 4f tensor charm
+ClequT32ta = Parameter(name = 'ClequT32ta',	nature = 'internal',	type = 'complex',	value = 'RClequT32ta+complex(0,1)*IClequT32ta',	texname = "")
+ClequT23ta = Parameter(name = 'ClequT23ta',	nature = 'internal',	type = 'complex',	value = 'RClequT23ta+complex(0,1)*IClequT23ta',	texname = "")
+
 
 
 

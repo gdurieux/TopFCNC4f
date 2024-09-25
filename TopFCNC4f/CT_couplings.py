@@ -191,6 +191,94 @@ cTRRbar_UV_mu = Coupling(name = 'cTRRbar_UV_mu', value = C.cTRRbarmu.value+pre+U
 cTLLbar_UV_mu = Coupling(name = 'cTLLbar_UV_mu', value = C.cTLLbarmu.value+pre+UVt, order = myorder)
 
 
+
+### tatatq
+## 4f vector up
+# R2
+uVLL_R2_ta    = Coupling(name = 'uVLL_R2_ta',    value = C.uVLLta   .value+pre+R2v, order = myorder)
+uVLR_R2_ta    = Coupling(name = 'uVLR_R2_ta',    value = C.uVLRta   .value+pre+R2v, order = myorder)
+uVRL_R2_ta    = Coupling(name = 'uVRL_R2_ta',    value = C.uVRLta   .value+pre+R2v, order = myorder)
+uVRR_R2_ta    = Coupling(name = 'uVRR_R2_ta',    value = C.uVRRta   .value+pre+R2v, order = myorder)
+uVLLbar_R2_ta = Coupling(name = 'uVLLbar_R2_ta', value = C.uVLLbarta.value+pre+R2v, order = myorder)
+uVLRbar_R2_ta = Coupling(name = 'uVLRbar_R2_ta', value = C.uVLRbarta.value+pre+R2v, order = myorder)
+uVRLbar_R2_ta = Coupling(name = 'uVRLbar_R2_ta', value = C.uVRLbarta.value+pre+R2v, order = myorder)
+uVRRbar_R2_ta = Coupling(name = 'uVRRbar_R2_ta', value = C.uVRRbarta.value+pre+R2v, order = myorder)
+# UV
+uVLL_UV_ta    = Coupling(name = 'uVLL_UV_ta',    value = C.uVLLta   .value+pre+UVv, order = myorder)
+uVLR_UV_ta    = Coupling(name = 'uVLR_UV_ta',    value = C.uVLRta   .value+pre+UVv, order = myorder)
+uVRL_UV_ta    = Coupling(name = 'uVRL_UV_ta',    value = C.uVRLta   .value+pre+UVv, order = myorder)
+uVRR_UV_ta    = Coupling(name = 'uVRR_UV_ta',    value = C.uVRRta   .value+pre+UVv, order = myorder)
+uVLLbar_UV_ta = Coupling(name = 'uVLLbar_UV_ta', value = C.uVLLbarta.value+pre+UVv, order = myorder)
+uVLRbar_UV_ta = Coupling(name = 'uVLRbar_UV_ta', value = C.uVLRbarta.value+pre+UVv, order = myorder)
+uVRLbar_UV_ta = Coupling(name = 'uVRLbar_UV_ta', value = C.uVRLbarta.value+pre+UVv, order = myorder)
+uVRRbar_UV_ta = Coupling(name = 'uVRRbar_UV_ta', value = C.uVRRbarta.value+pre+UVv, order = myorder)
+## 4f scalar up
+# R2
+uSRR_R2_ta    = Coupling(name = 'uSRR_R2_ta',    value = C.uSRRta   .value+pre+R2s, order = myorder)
+uSLL_R2_ta    = Coupling(name = 'uSLL_R2_ta',    value = C.uSLLta   .value+pre+R2s, order = myorder)
+uSRRbar_R2_ta = Coupling(name = 'uSRRbar_R2_ta', value = C.uSRRbarta.value+pre+R2s, order = myorder)
+uSLLbar_R2_ta = Coupling(name = 'uSLLbar_R2_ta', value = C.uSLLbarta.value+pre+R2s, order = myorder)
+# UV
+uSRR_UV_ta    = Coupling(name = 'uSRR_UV_ta',    value = C.uSRRta   .value+pre+UVs, order = myorder)
+uSLL_UV_ta    = Coupling(name = 'uSLL_UV_ta',    value = C.uSLLta   .value+pre+UVs, order = myorder)
+uSRRbar_UV_ta = Coupling(name = 'uSRRbar_UV_ta', value = C.uSRRbarta.value+pre+UVs, order = myorder)
+uSLLbar_UV_ta = Coupling(name = 'uSLLbar_UV_ta', value = C.uSLLbarta.value+pre+UVs, order = myorder)
+# 4f tensor up
+# R2
+uTRR_R2_ta    = Coupling(name = 'uTRR_R2_ta',    value = C.uTRRta   .value+pre+R2t, order = myorder)
+uTLL_R2_ta    = Coupling(name = 'uTLL_R2_ta',    value = C.uTLLta   .value+pre+R2t, order = myorder)
+uTRRbar_R2_ta = Coupling(name = 'uTRRbar_R2_ta', value = C.uTRRbarta.value+pre+R2t, order = myorder)
+uTLLbar_R2_ta = Coupling(name = 'uTLLbar_R2_ta', value = C.uTLLbarta.value+pre+R2t, order = myorder)
+# UV
+uTRR_UV_ta    = Coupling(name = 'uTRR_UV_ta',    value = C.uTRRta   .value+pre+UVt, order = myorder)
+uTLL_UV_ta    = Coupling(name = 'uTLL_UV_ta',    value = C.uTLLta   .value+pre+UVt, order = myorder)
+uTRRbar_UV_ta = Coupling(name = 'uTRRbar_UV_ta', value = C.uTRRbarta.value+pre+UVt, order = myorder)
+uTLLbar_UV_ta = Coupling(name = 'uTLLbar_UV_ta', value = C.uTLLbarta.value+pre+UVt, order = myorder)
+
+## 4f vector charm
+# R2
+cVLL_R2_ta    = Coupling(name = 'cVLL_R2_ta',    value = C.cVLLta   .value+pre+R2v, order = myorder)
+cVLR_R2_ta    = Coupling(name = 'cVLR_R2_ta',    value = C.cVLRta   .value+pre+R2v, order = myorder)
+cVRL_R2_ta    = Coupling(name = 'cVRL_R2_ta',    value = C.cVRLta   .value+pre+R2v, order = myorder)
+cVRR_R2_ta    = Coupling(name = 'cVRR_R2_ta',    value = C.cVRRta   .value+pre+R2v, order = myorder)
+cVLLbar_R2_ta = Coupling(name = 'cVLLbar_R2_ta', value = C.cVLLbarta.value+pre+R2v, order = myorder)
+cVLRbar_R2_ta = Coupling(name = 'cVLRbar_R2_ta', value = C.cVLRbarta.value+pre+R2v, order = myorder)
+cVRLbar_R2_ta = Coupling(name = 'cVRLbar_R2_ta', value = C.cVRLbarta.value+pre+R2v, order = myorder)
+cVRRbar_R2_ta = Coupling(name = 'cVRRbar_R2_ta', value = C.cVRRbarta.value+pre+R2v, order = myorder)
+# UV
+cVLL_UV_ta    = Coupling(name = 'cVLL_UV_ta',    value = C.cVLLta   .value+pre+UVv, order = myorder)
+cVLR_UV_ta    = Coupling(name = 'cVLR_UV_ta',    value = C.cVLRta   .value+pre+UVv, order = myorder)
+cVRL_UV_ta    = Coupling(name = 'cVRL_UV_ta',    value = C.cVRLta   .value+pre+UVv, order = myorder)
+cVRR_UV_ta    = Coupling(name = 'cVRR_UV_ta',    value = C.cVRRta   .value+pre+UVv, order = myorder)
+cVLLbar_UV_ta = Coupling(name = 'cVLLbar_UV_ta', value = C.cVLLbarta.value+pre+UVv, order = myorder)
+cVLRbar_UV_ta = Coupling(name = 'cVLRbar_UV_ta', value = C.cVLRbarta.value+pre+UVv, order = myorder)
+cVRLbar_UV_ta = Coupling(name = 'cVRLbar_UV_ta', value = C.cVRLbarta.value+pre+UVv, order = myorder)
+cVRRbar_UV_ta = Coupling(name = 'cVRRbar_UV_ta', value = C.cVRRbarta.value+pre+UVv, order = myorder)
+## 4f scalar charm
+# R2
+cSRR_R2_ta    = Coupling(name = 'cSRR_R2_ta',    value = C.cSRRta   .value+pre+R2s, order = myorder)
+cSLL_R2_ta    = Coupling(name = 'cSLL_R2_ta',    value = C.cSLLta   .value+pre+R2s, order = myorder)
+cSRRbar_R2_ta = Coupling(name = 'cSRRbar_R2_ta', value = C.cSRRbarta.value+pre+R2s, order = myorder)
+cSLLbar_R2_ta = Coupling(name = 'cSLLbar_R2_ta', value = C.cSLLbarta.value+pre+R2s, order = myorder)
+# UV
+cSRR_UV_ta    = Coupling(name = 'cSRR_UV_ta',    value = C.cSRRta   .value+pre+UVs, order = myorder)
+cSLL_UV_ta    = Coupling(name = 'cSLL_UV_ta',    value = C.cSLLta   .value+pre+UVs, order = myorder)
+cSRRbar_UV_ta = Coupling(name = 'cSRRbar_UV_ta', value = C.cSRRbarta.value+pre+UVs, order = myorder)
+cSLLbar_UV_ta = Coupling(name = 'cSLLbar_UV_ta', value = C.cSLLbarta.value+pre+UVs, order = myorder)
+# 4f tensor charm
+# R2
+cTRR_R2_ta    = Coupling(name = 'cTRR_R2_ta',    value = C.cTRRta   .value+pre+R2t, order = myorder)
+cTLL_R2_ta    = Coupling(name = 'cTLL_R2_ta',    value = C.cTLLta   .value+pre+R2t, order = myorder)
+cTRRbar_R2_ta = Coupling(name = 'cTRRbar_R2_ta', value = C.cTRRbarta.value+pre+R2t, order = myorder)
+cTLLbar_R2_ta = Coupling(name = 'cTLLbar_R2_ta', value = C.cTLLbarta.value+pre+R2t, order = myorder)
+# UV
+cTRR_UV_ta    = Coupling(name = 'cTRR_UV_ta',    value = C.cTRRta   .value+pre+UVt, order = myorder)
+cTLL_UV_ta    = Coupling(name = 'cTLL_UV_ta',    value = C.cTLLta   .value+pre+UVt, order = myorder)
+cTRRbar_UV_ta = Coupling(name = 'cTRRbar_UV_ta', value = C.cTRRbarta.value+pre+UVt, order = myorder)
+cTLLbar_UV_ta = Coupling(name = 'cTLLbar_UV_ta', value = C.cTLLbarta.value+pre+UVt, order = myorder)
+
+
+
 ## NLOCT
 R2GC_1000_1 = Coupling(name = 'R2GC_1000_1',
                        value = '(ee*G**2*MT*complexconjugate(CtcG))/(4.*cmath.pi**2*Lambda**2*sw*cmath.sqrt(2))',
